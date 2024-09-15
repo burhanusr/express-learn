@@ -3,12 +3,19 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Burhanu Sultan Ramadan",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.21.0"
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.2",
+    "sequelize": "^6.37.3"
   }
 }
