@@ -1,9 +1,7 @@
 const express = require('express');
-const productController = require('./../app/controllers/productController');
+const productController = require('./../../app/v3/controllers/productController');
 
 const router = express.Router();
-
-router.param('id', productController.checkId);
 
 router
   .route('/')
